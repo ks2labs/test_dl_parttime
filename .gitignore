@@ -132,3 +132,4 @@ mytest.ipynb
 SECRET.json
 .DS_Store
 data/
+check_sub.py
