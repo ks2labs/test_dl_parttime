@@ -1,8 +1,8 @@
 <img src="./ks2labsRheader-03.jpg">
 
-# Welcome to k2slabs Test Challenge!
+# Welcome to ks2labs Test Challenge!
 
-In the `data/` you will see compressed numpy zip files, this is observed data from particle interaction simulations. Check file [`my_submission.py`](./my_submission.py) before starting. You aim is to:
+In the `data/` folder you will see compressed numpy zip files, this is observed data from particle interaction simulations. Check file [`my_submission.py`](./my_submission.py) before starting. You aim is to:
 1. Train three neural networks for the three datasets and submit `test_y.npz` for each dataset. In each case, create a validation split of 10% from the training set.
 2. Write a trainer script / notebook for us to check your code. In case of script it should be callable from CLI like `$python train.py <something>.npz`
 
