@@ -2,11 +2,11 @@
 
 # Welcome to k2slabs Test Challenge!
 
-In the `data/` you will see compressed numpy zip files, this is observed data from particle interaction simulations.
-
-You aim is to:
-1. Train neural networks for the three datasets and submit `test_y`. In each case from the training set you can create a validation split of 10%.
+In the `data/` you will see compressed numpy zip files, this is observed data from particle interaction simulations. Check file [`my_submission.py`](./my_submission.py) before starting. You aim is to:
+1. Train three neural networks for the three datasets and submit `test_y.npz` for each dataset. In each case, create a validation split of 10% from the training set.
 2. Write a trainer script / notebook for us to check your code. In case of script it should be callable from CLI like `$python train.py <something>.npz`
+
+You get hired if a single network can perform well on all three datasets.
 
 ### Evaluation
 
@@ -28,8 +28,12 @@ Since your code will be run only once, aim for quick and dirty implementations o
 
 ### Submission
 
-For submitting use the file [`my_submission.py`](./my_submission.py). It will write a .npz file. Once completed mail the results and files to (`ks2labs@gmail.com`)[mailto:ks2labs@gmail.com].
+For submitting use the file [`my_submission.py`](./my_submission.py). It will write a .npz file. Once completed mail the results and files to ks2labs@gmail.com
 
 ### FAQ
 
 If you have any doubts raise an issue in the repo.
+
+**Q: Do I need to perform feature engineering?**
+
+A: No. Both input and output is raw observation values and feature engineering can cause problems in general use.
