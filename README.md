@@ -1,3 +1,5 @@
+<img src="./ks2labsRheader-03.jpg">
+
 # Welcome to k2slabs Test Challenge!
 
 In the `data/` you will see compressed numpy zip files, this is observed data from particle interaction simulations.
