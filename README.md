@@ -37,3 +37,7 @@ If you have any doubts raise an issue in the repo.
 **Q: Do I need to perform feature engineering?**
 
 A: No. Both input and output is raw observation values and feature engineering can cause problems in general use.
+
+**Q: Do I need a GPU to train network?**
+
+A: No. The model trains just fine on a CPU machine (mine being 2020 MBP, 16GB RAM & 10th Gen i5).
